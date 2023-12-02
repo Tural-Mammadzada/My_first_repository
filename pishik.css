@@ -1,0 +1,243 @@
+/*About_Me (First)   */
+
+#header {
+    z-index: 99;
+    width: 100%;
+    color: #fff;
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+    overflow: auto;
+    margin: 0px 0px 30px;
+    margin-bottom: 50px;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background: url('./concrete_seamless.png');
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.conteiner {
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.your_name {
+
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+}
+
+nav a+a::before {
+    content: "";
+    border-right: 1px solid #999;
+    margin-right: 22px;
+}
+
+nav {
+    float: right;
+    margin-top: 40px;
+
+}
+
+nav a {
+
+    text-decoration: none;
+    display: inline;
+    line-height: 18px;
+    color: #999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+nav a:not(:last-child) {
+    margin-right: 25px;
+}
+
+
+/*About_Me (Second)   */
+
+.main_section {
+    float: left;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+    
+    
+}
+
+
+
+h2 {
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #4aaaa5;
+}
+
+.cat {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: larger;
+}
+
+.little_box {
+    width: 100%;
+    max-width: 270px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    max-height: 200px;
+}
+
+.connect h2 {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eee;
+}
+
+.network:last-child{
+    margin-right: 0;
+}
+
+.network{
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
+    
+}
+
+footer{
+    padding: 30px 0;
+    clear: both;
+    font-size: 18px;
+    color: #fff;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+    margin-top: auto;
+}
+
+.work-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.work-content .work {
+    width: 274px;
+    position: relative;
+}
+.work img {
+    width: 100%;
+    
+    border: 0 none;
+    opacity: 0.8;}
+
+ section.work{
+    flex-grow: 2;
+    background: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work h3{
+
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+    /* bottom: 20px;
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0; */
+}
+
+/* contact*/
+
+#contact-form li{
+ margin-bottom: 20px;
+}
+
+
+li {
+    list-style:none
+}
+
+input {
+    height: 47px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    width: 550px;
+}
+label{
+    display: block;
+    width: 100%;
+    cursor: default;
+}
+
+textarea {
+    height: 200px;
+    width: 550px;
+    
+}
+
+.sent input[type=submit] {
+    padding: 0px 5px;
+    font-size: 21px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0px;
+    text-align: start;
+    width: auto; }
+
